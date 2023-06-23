@@ -1,3 +1,5 @@
+// The `if statement` on line 24 determines how many pages of 'search' results you intend to scrape.
+
 const puppeteer = require('puppeteer-extra');
 const fs = require('fs');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
@@ -19,7 +21,7 @@ async function scrapeLinks(page) {
     console.log(`Scraped ${links.length} links from page ${counter}`);
 
     // Break the loop if the counter has reached X
-    if (counter >= 2) {
+    if (counter >= 5) {
       break;
     }
 
