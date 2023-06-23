@@ -11,7 +11,7 @@ This script is designed to find unique job postings for all software engineer po
 
 ## How to Run the Scripts
 ### 1. Clone the repository to your local machine.
-`git clone https://github.com/<your_username>/indeed-job-scraper.git`\
+`git clone https://github.com/JohnnyCulbreth/indeed-job-scraper.git`\
 `cd indeed-job-scraper`
 
 ### 2. Install the required dependencies.
