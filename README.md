@@ -11,20 +11,20 @@ This script is designed to find unique job postings for all software engineer po
 
 ## How to Run the Scripts
 ### 1. Clone the repository to your local machine.
-`git clone https://github.com/<your_username>/indeed-job-scraper.git`\
-`cd indeed-job-scraper`
+`git clone https://github.com/<your_username>/indeed-job-scraper.git\
+cd indeed-job-scraper`
 
 ### 2. Install the required dependencies.
 `npm install`
 
 ### 3. Run the desired script.
-`// To scrape remote junior developer positions`\
-`node Indeed-Jr/remoteScraper.js`
+`// To scrape remote junior developer positions\
+node Indeed-Jr/remoteScraper.js`
 
-`// To scrape software engineer positions in Austin, TX`\
-`node Indeed-Austin/austinScraper.js`
+`// To scrape software engineer positions in Austin, TX\
+node Indeed-Austin/austinScraper.js`
 
-Each script will output the scraped data to the respective JSON file in the root directory.
+Each script will output the scraped data to the respective JSON file in the same directory.
 
 ## Notes
 - These scripts rely on the puppeteer library to scrape the data. They are designed to be resistant to Cloudflare's anti-bot measures by detecting Cloudflare checks and waiting for them to complete before proceeding with the scrape.
